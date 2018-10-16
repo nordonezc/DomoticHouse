@@ -15,6 +15,6 @@ public class House {
 	public List<Door> doors;
 
 	// THE HOUSE COMES WITH A LIST OF WINDOWS
-		// NOT ALWAYS THE HOUSES COME WITH WINDOWS
-		public List<Window> windows;
+	// NOT ALWAYS THE HOUSES COME WITH WINDOWS
+	public List<Window> windows;
 }

@@ -7,11 +7,16 @@ package houseFeatures;
  */
 public class Window {
 
+	// JUST IF THE WINDOW COME WITH ALARM
+	private Alarm alarm;
+
 	/**
 	 * IT ALLOWS THE USER TO OPEN THE WINDOW IF THE USER IS NOT ALLOWED ACCORDING TO
 	 * THE ALARM THE ALARM WILL CALL THE POLICE
 	 */
 	public void open() {
+		if (!alarm.userAllowed())
+			alarm.callPolice();
 		// OPEN WINDOW
 	}
 
@@ -21,6 +26,5 @@ public class Window {
 	public void close() {
 		// CLOSE WINDOW
 	}
-
 
 }
