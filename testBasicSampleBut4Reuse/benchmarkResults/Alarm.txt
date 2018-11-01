@@ -1,0 +1,5 @@
+houseFeatures.Alarm
+houseFeatures.Alarm.callPolice()
+houseFeatures.Alarm.userAllowed()
+houseFeatures.Door Refinement
+houseFeatures.Door.open() Refinement

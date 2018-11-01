@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.but4reuse.artefact.model:ArtefactModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.but4reuse.artefact.model="http://org.but4reuse.artefact.model" adapters="jdt">
+  <ownedArtefacts name="v1_HouseExample_All" artefactURI="file:/D:/Documentos/Eclipse/v1_HouseExample_All/" date="2018-10-08T16:49:06.540+0200"/>
+  <ownedArtefacts name="v2_HouseExample_core" artefactURI="file:/D:/Documentos/Eclipse/v2_HouseExample_core/" date="2018-10-08T16:23:19.046+0200"/>
+  <ownedArtefacts name="v3_HouseExample_core_alarm" artefactURI="file:/D:/Documentos/Eclipse/v3_HouseExample_core_alarm/" date="2018-10-08T16:25:22.753+0200"/>
+  <ownedArtefacts name="v4_HouseExample_core_window" artefactURI="file:/D:/Documentos/Eclipse/v4_HouseExample_core_window/" date="2018-10-08T16:28:48.547+0200"/>
+  <ownedArtefacts name="v5_HouseExample_core_domotic" artefactURI="file:/D:/Documentos/Eclipse/v5_HouseExample_core_domotic/" date="2018-10-08T16:31:19.772+0200"/>
+  <ownedArtefacts name="v6_HouseExample_core_window_domotic" artefactURI="file:/D:/Documentos/Eclipse/v6_HouseExample_core_window_domotic/" date="2018-10-08T16:31:32.840+0200"/>
+  <ownedArtefacts name="v7_HouseExample_core_window_alarm" artefactURI="file:/D:/Documentos/Eclipse/v7_HouseExample_core_window_alarm/" date="2018-10-08T16:32:11.740+0200"/>
+  <ownedArtefacts name="v8_HouseExample_core_alarm_domotic" artefactURI="file:/D:/Documentos/Eclipse/v8_HouseExample_core_alarm_domotic/" date="2018-10-08T16:32:34.676+0200"/>
+</org.but4reuse.artefact.model:ArtefactModel>

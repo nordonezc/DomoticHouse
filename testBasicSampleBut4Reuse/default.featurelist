@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.but4reuse.feature.list:FeatureList xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.but4reuse.feature.list="http://org.but4reuse.feature.list" name="DomoticHouse">
+  <ownedFeatures id="Core" name="Core" description="The house is the representation of a building made of Doors that could be opened and closed.">
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.0"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.1"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.2"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.3"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.4"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.5"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.6"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.7"/>
+  </ownedFeatures>
+  <ownedFeatures id="Window" name="Window" description="The window of a house that can be either open or close.">
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.3"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.5"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.6"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.0"/>
+  </ownedFeatures>
+  <ownedFeatures id="Alarm" name="Alarm" description="An alarm is device to control the access to the house. If the access is not allowed the police will be call.">
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.2"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.6"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.7"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.0"/>
+  </ownedFeatures>
+  <ownedFeatures id="Domotic" name="Domotic" description="A domotic house allows to automatically open or close doors or windows. ">
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.4"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.5"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.7"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.0"/>
+  </ownedFeatures>
+  <ownedFeatures id="I3_Core_Window_Alarm" name="I3_Core_Window_Alarm" interactionFeatureOf="Core Window Alarm">
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.0"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.6"/>
+  </ownedFeatures>
+  <ownedFeatures id="I3_Core_Window_Domotic" name="I3_Core_Window_Domotic" interactionFeatureOf="Core Window Domotic">
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.0"/>
+    <implementedInArtefacts href="default.artefactmodel#//@ownedArtefacts.5"/>
+  </ownedFeatures>
+  <artefactModel href="default.artefactmodel#/"/>
+</org.but4reuse.feature.list:FeatureList>

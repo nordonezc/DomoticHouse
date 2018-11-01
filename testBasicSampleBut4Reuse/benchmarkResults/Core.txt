@@ -1,0 +1,4 @@
+houseFeatures.Door
+houseFeatures.Door.close()
+houseFeatures.Door.open()
+houseFeatures.House

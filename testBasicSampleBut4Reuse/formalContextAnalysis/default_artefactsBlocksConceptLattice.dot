@@ -1,0 +1,35 @@
+digraph G { 
+	rankdir=BT;
+1 [shape=record,style=filled,fillcolor=lightblue,label="{Block 0\n|}"];
+2 [shape=record,style=filled,fillcolor=lightblue,label="{Block 2\n|}"];
+3 [shape=record,style=filled,fillcolor=yellow,label="{Block 4\n|v2_HouseExample_core\n}"];
+4 [shape=record,style=filled,fillcolor=yellow,label="{|v5_HouseExample_core_domotic\n}"];
+5 [shape=record,style=filled,fillcolor=yellow,label="{Block 1\n|v3_HouseExample_core_alarm\n}"];
+6 [shape=record,style=filled,fillcolor=yellow,label="{|v8_HouseExample_core_alarm_domotic\n}"];
+7 [shape=record,style=filled,fillcolor=lightblue,label="{Block 3\n|}"];
+8 [shape=record,style=filled,fillcolor=lightblue,label="{Block 5\n|}"];
+9 [shape=record,style=filled,fillcolor=lightblue,label="{Block 6\n|}"];
+10 [shape=record,style=filled,fillcolor=yellow,label="{|v4_HouseExample_core_window\n}"];
+11 [shape=record,style=filled,fillcolor=yellow,label="{|v7_HouseExample_core_window_alarm\n}"];
+12 [shape=record,style=filled,fillcolor=yellow,label="{Block 7\n|v1_HouseExample_All\n}"];
+13 [shape=record,style=filled,fillcolor=yellow,label="{Block 8\n|v6_HouseExample_core_window_domotic\n}"];
+	2 -> 1
+	3 -> 1
+	4 -> 2
+	4 -> 3
+	5 -> 1
+	6 -> 2
+	6 -> 5
+	7 -> 1
+	8 -> 2
+	8 -> 7
+	9 -> 7
+	10 -> 3
+	10 -> 9
+	11 -> 5
+	11 -> 9
+	12 -> 8
+	12 -> 5
+	13 -> 8
+	13 -> 3
+}

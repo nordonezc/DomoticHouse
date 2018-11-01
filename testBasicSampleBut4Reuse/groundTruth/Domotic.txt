@@ -1,0 +1,6 @@
+houseFeatures.Door Refinement
+houseFeatures.Door.automaticOpen()
+houseFeatures.Door.automaticClose()
+storeFeatures.Domotic
+storeFeatures.Domotic.automaticOpen()
+storeFeatures.Domotic.automaticClose()

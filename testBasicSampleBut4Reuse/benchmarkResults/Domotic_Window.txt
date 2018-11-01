@@ -1,0 +1,3 @@
+houseFeatures.Window Refinement
+houseFeatures.Window.automaticClose()
+houseFeatures.Window.automaticOpen()
